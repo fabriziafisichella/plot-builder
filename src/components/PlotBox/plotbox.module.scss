@@ -1,0 +1,25 @@
+@import "../../assets/mixins";
+
+.container {
+  background-color: #f1f5ff;
+  @include shadow-and-border;
+  overflow-y: auto;
+  max-height: 500px;
+  max-width: 600px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 2em;
+
+  .storyContainer {
+    white-space: pre-line;
+    text-align: justify;
+    text-indent: 25px;
+    margin: 10px;
+
+    &::first-line {
+      font-weight: bold;
+      font-optical-sizing: auto;
+      color: #655fb0;
+    }
+  }
+}
