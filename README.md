@@ -6,7 +6,7 @@
 <br>
 I created this site using NEXT.JS, TYPESCRIPT and GEMINI AI during my fourth month of study.<br>
 Filling all the fields you'll be able to generate a customized plot.<br>
-This project is **not** mobile friendly.<br>
+This project is NOT mobile friendly.<br>
 After September / October, Gemini AI will *not* work anymore on this project.<br>
 <br>
 
